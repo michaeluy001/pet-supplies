@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+
+  /* Colors */
+  --warm-sand: #FBF3C1;
+  --mint-green: #64E2B7;
+  --soft-purple: #DC8BE0;
+  --vibrant-magenta: #D50B8B;
+
+  /* Typography */
+
+  --font-cal-sans: "Comic Neue", sans-serif;
+}  
+
+#root {
+  font-family: var(--font-cal-sans);
+}
