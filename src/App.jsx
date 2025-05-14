@@ -3,7 +3,7 @@ import { Header } from './Components/Header'
 import { HeroBanner } from './Components/HeroBanner'
 import { Features } from './Components/Features'
 import { Mission } from './Components/Mission'
-import { Gallery } from './Components/Gallery'
+import { Slider } from './Components/Slider'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
           <HeroBanner />
           <Features />
           <Mission />
-          <Gallery />
+          <Slider />
         </div>
       </div>
     </>
