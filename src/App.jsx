@@ -6,6 +6,7 @@ import { Mission } from './Components/Mission'
 import { Slider } from './Components/Slider'
 import { EmailCapture } from './Components/EmailCapture'
 import { Footer } from './Components/Footer'
+import { Collections } from './Components/Collections'
 
 
 function App() {
@@ -17,9 +18,9 @@ function App() {
         <div className='flex flex-col container'>
           <HeroBanner />
           <Features />
+          <Collections />
           <Slider />
           <Mission />
-
           <EmailCapture />
           <Footer />
         </div>
