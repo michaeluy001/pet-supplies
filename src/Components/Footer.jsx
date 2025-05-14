@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <>
       <div className="grid grid-cols-4 p-5 ">
-        <div className="flex mx-6 h-50">
+        <div className="flex mx-6 h-50 text-gray-800/60">
           {columns.map((item, index) => (
             <div className="space-x-10">
               <p className="text-lg"> {item.title} </p>

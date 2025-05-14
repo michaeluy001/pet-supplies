@@ -27,6 +27,9 @@ export const Slider = () => {
     <>
       <div className="h-screen w-full content-center overflow-hidden bg-[var(--warm-sand)]">
         <div className=" ">
+          <p className="text-center text-lg p-2 font-bold text-gray-800/60">Swipe through our featured products — 
+            handpicked for comfort, fun, and everyday care. 
+            Because your pet deserves the best!</p>
           <div className="relative h-3/4 size-full flex overflow-hidden">
             {imageUrls.map((url) => (
               <img

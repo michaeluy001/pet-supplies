@@ -7,7 +7,7 @@ export const EmailCapture = () => {
     <>
       <div className="relative bg-amber-100 overflow-hidden">
         <form className="h-screen content-center p-10">
-          <p className="text-2xl">
+          <p className="text-2xl text-gray-800/60">
             Subscribe to our Newsletter to receive exciting updates and promos!
           </p>
           <div className="flex items-center">

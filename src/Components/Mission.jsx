@@ -10,9 +10,9 @@ export const Mission = () => {
               Our Story
             </span>
           </div>
-          <p>
+          <p className='text-gray-800/60'>
             Love, Pets was founded in 2010 by passionate animal lovers, Mike and
-            Ashley, who met while volunteering at a local animal shelter. After
+            Perth, who met while volunteering at a local animal shelter. After
             witnessing firsthand the joy that pets bring to people's lives, they
             decided to create a company that would help pet owners give their
             furry friends the best possible care. Today, Love, Pets is a
@@ -25,7 +25,7 @@ export const Mission = () => {
               Our Mission
             </span>
           </div>
-          <p>
+          <p className='text-gray-800/60'>
             At Love, Pets, our mission is to enhance the lives of pets and their
             humans by delivering high-quality products, expert advice, and a
             community that shares our passion for animal welfare and
