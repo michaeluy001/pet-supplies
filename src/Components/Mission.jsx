@@ -1,8 +1,10 @@
+import {Overlay} from './Overlay'
+
 export const Mission = () => {
   return (
     <>
-      <div className=" relative bg-[var(--warm-sand)] h-dvh w-screen  p-10 tracking-wider overflow-hidden">
-        <div className=" relative z-1">
+      <div className=" relative bg-[var(--warm-sand)] size-full  p-10 tracking-wider">
+        <div className=" relative z-1 size-screen">
           <div className="my-3">
             <span className="text-[var(--soft-purple)] text-4xl  font-bold">
               Our Story
@@ -32,12 +34,8 @@ export const Mission = () => {
             that.
           </p>
         </div>
-              <div className="z-0">
-        <div className="absolute container bottom-50 right-1/2 size-30 rounded-full bg-[var(--mint-green)]/30" />
-        <div className="absolute container -bottom-15 -right-5 size-70 rounded-full bg-[var(--soft-purple)]/50" />
+         <Overlay />
       </div>
-      </div>
-
     </>
   );
 };

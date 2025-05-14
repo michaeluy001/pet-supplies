@@ -25,7 +25,7 @@ export const Slider = () => {
 
   return (
     <>
-      <div className="h-screen w-full content-center ">
+      <div className="h-screen w-full content-center overflow-hidden">
         <div className=" ">
           <div className="relative h-3/4 size-full flex overflow-hidden">
             {imageUrls.map((url) => (

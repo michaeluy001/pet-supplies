@@ -4,6 +4,8 @@ import { HeroBanner } from './Components/HeroBanner'
 import { Features } from './Components/Features'
 import { Mission } from './Components/Mission'
 import { Slider } from './Components/Slider'
+import { EmailCapture } from './Components/EmailCapture'
+
 
 function App() {
 
@@ -14,8 +16,10 @@ function App() {
         <div className='flex flex-col container'>
           <HeroBanner />
           <Features />
-          <Mission />
           <Slider />
+          <Mission />
+
+          <EmailCapture />
         </div>
       </div>
     </>
