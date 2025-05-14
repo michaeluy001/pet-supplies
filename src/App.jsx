@@ -5,6 +5,7 @@ import { Features } from './Components/Features'
 import { Mission } from './Components/Mission'
 import { Slider } from './Components/Slider'
 import { EmailCapture } from './Components/EmailCapture'
+import { Footer } from './Components/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Mission />
 
           <EmailCapture />
+          <Footer />
         </div>
       </div>
     </>

@@ -6,7 +6,7 @@ export const Features = () => {
 
   return (
     <>
-      <div className="w-screen bg-amber-200/40">
+      <div className="w-screen bg-[var(--warm-sand)]">
         <div className=" flex flex-col container overflow-hidden items-center">
           {cardArray.map((item, index) => (
             <Card key={index} card={item} />
