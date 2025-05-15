@@ -1,7 +1,7 @@
 export const ProductCard = ({ prod }) => {
   return (
     <>
-      <div className="h-120 w-full items-center p-2 overflow-hidden flex flex-col md:h-150 lg:h-190">
+      <div className="h-100 w-full items-center p-2 overflow-hidden flex flex-col md:h-150 lg:h-190">
         <div className="rounded-4xl relative ">
           <img src={prod.src} alt={prod.name} className="object-cover " />
 

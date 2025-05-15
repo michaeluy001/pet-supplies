@@ -3,14 +3,14 @@ import {Overlay} from './Overlay'
 export const Mission = () => {
   return (
     <>
-      <div className=" relative bg-[var(--warm-sand)] m-10 justify-items-center ">
-        <div className=" relative z-1 w-130 tracking-widest leading-8 h-screen text-justify md:w-150 lg:w-190">
-          <div className="my-10">
-            <span className="text-[var(--soft-purple)] text-4xl font-bold md:text-5xl lg:text-6xl">
+      <div className="relative bg-[var(--warm-sand)]   justify-items-center ">
+        <div className=" relative z-1 w-screen px-10 py-7 tracking-widest leading-8 h-full text-justify md:w-150 lg:w-190">
+          <div className="my-10 ">
+            <span className="text-[var(--soft-purple)] text-2xl font-bold md:text-5xl lg:text-6xl">
               Our Story
             </span>
           </div>
-          <p className='text-gray-800/60 text-2xl md:text-3xl lg:text-4xl'>
+          <p className='text-gray-800/60 text-md md:text-3xl lg:text-4xl'>
             Love, Pets was founded in 2010 by passionate animal lovers, Bonney and
             Clyde, who met while volunteering at a local animal shelter. After
             witnessing firsthand the joy that pets bring to people's lives, they
@@ -21,11 +21,11 @@ export const Mission = () => {
             owners everywhere.
           </p>
           <div className="my-10">
-            <span className="text-[var(--mint-green)] text-4xl font-bold md:text-5xl lg:text-6xl">
+            <span className="text-[var(--mint-green)] text-2xl font-bold md:text-5xl lg:text-6xl">
               Our Mission
             </span>
           </div> 
-          <p className='text-gray-800/60 text-2xl md:text-3xl lg:text-4xl'>
+          <p className='text-gray-800/60  text-md md:text-3xl lg:text-4xl'>
             At Love, Pets, our mission is to enhance the lives of pets and their
             humans by delivering high-quality products, expert advice, and a
             community that shares our passion for animal welfare and

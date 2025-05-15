@@ -15,11 +15,11 @@ export const HeroBanner = () => {
             alt="Kittens"
             className="h-full aspect-1/1 object-cover"
           />
-          <div className="absolute w-full  flex flex-col gap-3 items-center bottom-15 sm:bottom-35 md:bottom-40 lg:bottom-55 sm:text-2xl md:text-3xl lg:text-4xl">
+          <div className="absolute w-full flex flex-col gap-3 items-center bottom-35 sm:bottom-55 md:bottom-68 lg:bottom-85 sm:text-2xl md:text-3xl lg:text-4xl">
             <Button> Shop Now </Button>
             <Button type="primary"> Contact Us </Button>
           </div>
-          <div className="absolute top-1/2">
+          <div className="absolute top-2/5">
             <Caption text={captionText} />
           </div>
         </div>
