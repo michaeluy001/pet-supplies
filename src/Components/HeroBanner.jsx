@@ -15,7 +15,7 @@ export const HeroBanner = () => {
             alt="Kittens"
             className="h-full aspect-1/1 object-cover"
           />
-          <div className="absolute w-full  flex flex-col gap-3 items-center bottom-15 sm:bottom-35 md:bottom-40">
+          <div className="absolute w-full  flex flex-col gap-3 items-center bottom-15 sm:bottom-35 md:bottom-40 lg:bottom-55 sm:text-2xl md:text-3xl lg:text-4xl">
             <Button> Shop Now </Button>
             <Button type="primary"> Contact Us </Button>
           </div>

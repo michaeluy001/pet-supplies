@@ -6,9 +6,9 @@ export const Products = () => {
   return (
     <>
      
-      <div className="flex flex-col space-y-10 my-15">
-        <div className="h-10  text-center text-gray-800">
-          <p className="p-5  text-2xl font-bold  bg-orange-200 tracking-widest md:text-3xl">
+      <div className="flex flex-col space-y-15 my-15 lg:space-y-25">
+        <div className="h-10  text-center text-gray-800 ">
+          <p className="p-5  text-2xl font-bold  bg-orange-200 tracking-widest md:text-3xl lg:text-5xl lg:h-35">
             Trusted Essentials for Your Beloved Pets 
           </p>
         </div>

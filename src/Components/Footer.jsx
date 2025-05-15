@@ -1,4 +1,4 @@
-import { LovePetsLogo } from "./LovePetsLogo";
+
 import { useFooterCols } from "./useFooterCols";
 
 export const Footer = () => {
@@ -7,13 +7,13 @@ export const Footer = () => {
   return (
     <>
       <div className="grid grid-cols-4 p-5 ">
-        <div className="flex mx-6 h-50 text-gray-800/60">
+        <div className="flex mx-6 h-50 text-gray-800/60 lg:h-70">
           {columns.map((item, index) => (
             <div key={index} className="space-x-10 md:space-x-15 ">
-              <p className="text-2xl md:text-3xl my-2"> {item.title} </p>
+              <p className="text-2xl my-2 md:text-3xl lg:text-4xl"> {item.title} </p>
               <ul className="flex flex-col ">
                 {item.contents.map((item, index) => (
-                  <li key={item} className="text-sm md:text-lg">
+                  <li key={item} className="text-sm md:text-lg lg:text-2xl">
                     <a href="#"> {item} </a>
                   </li>
                 ))}
@@ -22,7 +22,7 @@ export const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="bg-gray-200 text-xs w-screen">
+      <div className="bg-gray-200 text-xs w-screen lg:text-4xl">
         <p> Built by Michael Uy | © 2025 </p>
       </div>
     </>

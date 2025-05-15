@@ -1,8 +1,8 @@
 export const Card = (props) => {
   return (<>
-    <div className="border-amber-100 space-y-5 my-10">
-        <img src={props.card.imgSrc} alt={props.card.alt} className="aspect-1/1 scale-95"></img>
-        <p className="px-10 h-30 text-center text-gray-800/60 text-2xl md:text-3xl">{props.card.caption}</p>
+    <div className=" space-y-10 my-10 justify-items-center h-screen ">
+        <img src={props.card.imgSrc} alt={props.card.alt} className="w-full "/>
+        <p className="px-10 h-30 text-center text-gray-800/60 text-2xl md:text-3xl lg:text-5xl">{props.card.caption}</p>
     </div>
   </>)
 };
