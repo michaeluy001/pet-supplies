@@ -1,12 +1,12 @@
-import { ProductCard } from "./ProductCard";
+import { ProductCard } from "./Products-Card";
 import { useProductInfo } from "./useProductInfo";
 
-export const Collections = () => {
+export const Products = () => {
   const petSupplies = useProductInfo();
   return (
     <>
      
-      <div className="flex flex-col space-y-20">
+      <div className="flex flex-col space-y-10 my-15">
         <div className="h-10  text-center text-gray-800">
           <p className="p-5  text-2xl font-bold  bg-orange-200 tracking-widest">
             Trusted Essentials for Your Beloved Pets
@@ -14,7 +14,7 @@ export const Collections = () => {
         </div>
         <div className="grid grid-cols-2 gap-0.5 ">
           {petSupplies.map((item, index) => (
-            <ProductCard key={index} prod={item} />
+            <ProductCard key={index} prod={item}/>
           ))}
         </div>
       </div>

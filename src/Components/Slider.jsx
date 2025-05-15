@@ -25,37 +25,38 @@ export const Slider = () => {
 
   return (
     <>
-      <div className="h-screen w-full content-center overflow-hidden ">
-        <div className="space-y-5 ">
-          <p className="text-center text-2xl p-2 font-bold text-gray-800/60 ">Swipe through our featured products — 
+      <div className=" w-full content-center overflow-hidden ">
+        <div className="space-y-5">
+          <p className="text-center text-2xl py-10 px-15 font-bold text-gray-800/60 ">
+            Swipe through our featured products — 
             handpicked for comfort, fun, and everyday care. 
             Because your pet deserves the best!</p>
-          <div className="relative h-3/4 size-full flex overflow-hidden">
-            {imageUrls.map((url) => (
+          <div className="relative  size-full flex overflow-hidden">
+            {imageUrls.map((url, index) => (
               <img
-                key={url}
+                key={index}
                 src={url}
                 className={` block size-full object-cover shrink-0 grow-0 transition-transform duration-300`}
                 style={{ translate: `${-100 * imageIndex}%` }}
               />
             ))}
-            <div className="absolute top-0 size-full h-full  flex justify-between text-gray-800/80">
+            <div className="absolute top-0 size-full flex justify-between text-gray-800/80">
               <button
                 onClick={prevSlide}
-                className="h-full px-5 active:bg-gray-800/30"
+                className="h-full px-5 active:bg-gray-800/30 "
               >
-                <FaArrowLeft />
+                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors"><FaArrowLeft /></div>
               </button>
               <button
                 onClick={nextSlide}
                 className="h-full px-5 active:bg-gray-800/30"
               >
-                <FaArrowRight />
+                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors"><FaArrowRight /></div>
               </button>
             </div>
-            <div className="absolute h-10 w-1/2 bottom-0 left-1/2 -translate-1/2 text-gray-800 flex justify-evenly">
+            <div className="absolute h-10 w-1/2 bottom-2 left-1/2 -translate-1/2 text-gray-800 flex justify-evenly">
               {imageUrls.map((_, index) => (
-                <button onClick={() => setImageIndex(index)}>
+                <button onClick={() => setImageIndex(index)} key={index} className="text-2xl">
                   {index === imageIndex ? <FaRegDotCircle /> : <FaRegCircle />}
                 </button>
               ))}

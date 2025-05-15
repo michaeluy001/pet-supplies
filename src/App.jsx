@@ -6,19 +6,16 @@ import { Mission } from './Components/Mission'
 import { Slider } from './Components/Slider'
 import { EmailCapture } from './Components/EmailCapture'
 import { Footer } from './Components/Footer'
-import { Collections } from './Components/Collections'
-
+import { Products } from './Components/Products'
 
 function App() {
-
-
   return (
     <><div className='overflow-x-hidden'>
         <Header />
         <div className='flex flex-col container'>
           <HeroBanner />
           <Features />
-          <Collections />
+          <Products />
           <Slider />
           <Mission />
           <EmailCapture />

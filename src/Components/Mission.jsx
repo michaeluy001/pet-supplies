@@ -3,14 +3,14 @@ import {Overlay} from './Overlay'
 export const Mission = () => {
   return (
     <>
-      <div className=" relative bg-[var(--warm-sand)] size-full  p-10 tracking-wider">
-        <div className=" relative z-1 size-screen">
-          <div className="my-3">
-            <span className="text-[var(--soft-purple)] text-4xl  font-bold">
+      <div className=" relative bg-[var(--warm-sand)] m-10 justify-items-center ">
+        <div className=" relative z-1 w-130 tracking-widest leading-8 h-full text-justify md:w-150">
+          <div className="my-10">
+            <span className="text-[var(--soft-purple)] text-4xl  font-bold ">
               Our Story
             </span>
           </div>
-          <p className='text-gray-800/60'>
+          <p className='text-gray-800/60 text-2xl'>
             Love, Pets was founded in 2010 by passionate animal lovers, Bonney and
             Clyde, who met while volunteering at a local animal shelter. After
             witnessing firsthand the joy that pets bring to people's lives, they
@@ -20,12 +20,12 @@ export const Mission = () => {
             top-notch products, expert advice, and heartfelt support to pet
             owners everywhere.
           </p>
-          <div className="my-3">
+          <div className="my-10">
             <span className="text-[var(--mint-green)] text-4xl font-bold">
               Our Mission
             </span>
-          </div>
-          <p className='text-gray-800/60'>
+          </div> 
+          <p className='text-gray-800/60 text-2xl'>
             At Love, Pets, our mission is to enhance the lives of pets and their
             humans by delivering high-quality products, expert advice, and a
             community that shares our passion for animal welfare and
