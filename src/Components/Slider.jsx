@@ -27,7 +27,7 @@ export const Slider = () => {
     <>
       <div className=" w-full content-center overflow-hidden ">
         <div className="space-y-5">
-          <p className="text-center text-2xl py-10 px-15 font-bold text-gray-800/60 ">
+          <p className="text-center text-2xl py-10 px-15 font-bold text-gray-800/60 md:text-4xl">
             Swipe through our featured products — 
             handpicked for comfort, fun, and everyday care. 
             Because your pet deserves the best!</p>

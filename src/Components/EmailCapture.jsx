@@ -7,18 +7,18 @@ export const EmailCapture = () => {
     <>
       <div className="relative bg-amber-100 overflow-hidden">
         <form className="h-screen content-center p-20">
-          <p className="text-2xl text-gray-800/60 tracking-widest">
+          <p className="text-2xl text-gray-800/60 tracking-widest md:text-4xl">
             Subscribe to our Newsletter to receive exciting updates and promos!
           </p>
-          <div className="flex items-center">
+          <div className="flex items-center md:text-4xl">
             <input
               id="email"
               type="email"
               placeholder="name@email.com"
-              className="border p-3 rounded-3xl m-5 h-10 w-5/6"
+              className="border p-3 rounded-3xl m-5 h-10 w-5/6 md:h-20"
             />
-            <div className="flex text-[var(--mint-green)] text-2xl items-center bg-amber-200 size-10 justify-center rounded-full">
-              <FaArrowRight className="active:scale-50 transition-transform" />
+            <div className="flex text-[var(--mint-green)] text-2xl items-center bg-amber-200 size-10 justify-center rounded-full md:size-15">
+              <FaArrowRight className="active:scale-50 transition-transform md:text-4xl" />
             </div>
           </div>
         </form>

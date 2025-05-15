@@ -9,7 +9,7 @@ export const Button = ({
     primary: "bg-orange-400 ring-2 ring-orange-300 text-white",
   };
 
-  const base = "w-50 h-10 rounded-2xl active:scale-90 transition-transform";
+  const base = "w-50 h-10 rounded-2xl active:scale-90 transition-transform md:w-60 md:h-15";
 
   return (
     <>
