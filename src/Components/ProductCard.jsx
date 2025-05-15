@@ -1,20 +1,25 @@
-export const ProductCard = (props) => {
+export const ProductCard = ({ prod }) => {
   return (
     <>
-      <div className="h-100 w-full bg-[var(--warm-sand)] items-center p-2 overflow-hidden flex flex-col">
-        <div className="size-60 overflow-hidden justify-items-center flex">
-          <img
-            src={props.item.src}
-            alt={props.item.name}
-            className="size-60 object-cover"
-          />
+      <div className="h-115 w-full items-center p-2 overflow-hidden flex flex-col">
+        <div className="rounded-4xl">
+          <img src={prod.src} alt={prod.name} className="object-cover " />
+
+          <ul className="text-sm p-5 space-y-2 tracking-wider  bg-orange-200 min-h-full text-gray-800 ">
+            <li className="text-md font-bold text-md space-y-6 text-lg">{prod.name}</li>
+            <li>{prod.model}</li>
+            <li
+              className={`
+                ${prod.availability == "Out of Stock"
+                  ? "bg-red-600"
+                  : "bg-green-600"} text-white 
+              `} 
+            >
+              {prod.availability}
+            </li>
+            <li>{prod.price}</li>
+          </ul>
         </div>
-        <ul className="text-sm p-5 space-y-0.5 tracking-wider">
-          <li className="text-md font-bold text-gray-600">{props.item.name}</li>
-          <li>{props.item.model}</li>
-          <li>{props.item.availability}</li>
-          <li>{props.item.price}</li>
-        </ul>
       </div>
     </>
   );

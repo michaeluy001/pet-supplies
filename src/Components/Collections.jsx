@@ -6,15 +6,15 @@ export const Collections = () => {
   return (
     <>
      
-      <div className="flex flex-col space-y-5 bg-[var(--warm-sand)]">
-        <div className="h-10  text-center text-[var(--soft-purple)]">
-          <p className="p-5 text-2xl font-bold">
+      <div className="flex flex-col space-y-20">
+        <div className="h-10  text-center text-gray-800">
+          <p className="p-5  text-2xl font-bold  bg-orange-200 tracking-widest">
             Trusted Essentials for Your Beloved Pets
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-0.5">
+        <div className="grid grid-cols-2 gap-0.5 ">
           {petSupplies.map((item, index) => (
-            <ProductCard key={index} item={item} />
+            <ProductCard key={index} prod={item} />
           ))}
         </div>
       </div>

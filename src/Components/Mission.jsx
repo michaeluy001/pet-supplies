@@ -11,8 +11,8 @@ export const Mission = () => {
             </span>
           </div>
           <p className='text-gray-800/60'>
-            Love, Pets was founded in 2010 by passionate animal lovers, Mike and
-            Perth, who met while volunteering at a local animal shelter. After
+            Love, Pets was founded in 2010 by passionate animal lovers, Bonney and
+            Clyde, who met while volunteering at a local animal shelter. After
             witnessing firsthand the joy that pets bring to people's lives, they
             decided to create a company that would help pet owners give their
             furry friends the best possible care. Today, Love, Pets is a

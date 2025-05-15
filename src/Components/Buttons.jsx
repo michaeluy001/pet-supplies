@@ -5,7 +5,7 @@ export const Button = ({
   onClick,
 }) => {
   const variants = {
-    default: "bg-amber-100 ring-2 ring-amber-50 text-black",
+    default: "bg-orange-200 ring-2 ring-amber-50 text-black",
     primary: "bg-orange-400 ring-2 ring-orange-300 text-white",
   };
 
@@ -14,7 +14,7 @@ export const Button = ({
   return (
     <>
       <button
-        onClick={onclick}
+        onClick={onClick}
         className={`${className} ${variants[type]} ${base}`}
       >
         {" "}

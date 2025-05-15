@@ -4,7 +4,7 @@ export const LovePetsLogo = () => {
   return (
     <>
       {" "}
-      <div className="relative">
+      <div className="relative scale-90">
         <div className="relative z-10 text-4xl font-bolder whitespace-nowrap">
           <span className="text-[var(--soft-purple)]">Love,</span>
           <span className="text-[var(--mint-green)]"> Pets</span>

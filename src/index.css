@@ -16,4 +16,5 @@
 
 #root {
   font-family: var(--font-cal-sans);
+  background-color: var(--warm-sand);
 }

@@ -8,7 +8,7 @@ export const HeroBanner = () => {
       <div className=" w-screen h-[calc(100dvh-5rem)] content-center justify-items-center overflow-hidden">
         <div className="relative flex flex-col justify-items-center items-center size-full ">
         
-          <img src={bee} alt="Brown Dog" className="size-dvh" />
+          <img src={bee} alt="Brown Dog" className="aspect-7/10 md:aspect-9/12" />
           <CallToAction />
           <Caption
             text={
