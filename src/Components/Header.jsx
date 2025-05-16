@@ -1,4 +1,6 @@
-import logo from '/src/assets/Lovepetslogo.png'
+import logo from "/src/assets/Lovepetslogo.png";
+import { CiSearch } from "react-icons/ci";
+
 import { RxHamburgerMenu } from "react-icons/rx";
 export const Header = () => {
   return (
@@ -8,11 +10,18 @@ export const Header = () => {
           <RxHamburgerMenu className="text-3xl sm:text-4xl" />
         </div>
         <div className="flex justify-center relative  rounded-full">
-          <img src={logo} alt="Love Pets Logo" className='size-15 sm:size-20 md:size-23 absolute -top-3 -rotate-5'/>
+          <img
+            src={logo}
+            alt="Love Pets Logo"
+            className="size-15 sm:size-20 md:size-23 absolute -top-3 -rotate-5"
+          />
         </div>
-        <p className='flex justify-center  text-green-800 '>
-          Login
-        </p>
+        <div className="flex justify-center text-green-800 content-center gap-10">
+          <p className="text-2xl">
+            <CiSearch />
+          </p>
+          <p className="hidden xl:block text-2xl"> Login </p>
+        </div>
       </div>
       <div className="w-full h-20"></div>
     </>
