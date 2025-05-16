@@ -1,12 +1,12 @@
 export const ProductCard = ({ prod }) => {
   return (
     <>
-      <div className="h-100 w-full items-center p-2 overflow-hidden  flex flex-col sm:h-120 md:h-150 lg:h-190 xl:h-165 2xl:h-130 2xl:w-80 m-auto">
-        <div className=" relative justify-items-center  text-center xl:w-100 2xl:w-75">
+      <div className="relative h-100 w-full items-center  overflow-hidden  flex flex-col sm:h-120 md:h-150 lg:h-190 xl:h-165 2xl:h-110  m-auto border ">
+        <div className="  justify-items-center  text-center xl:w-100 bg-orange-200 ">
           <img
             src={prod.src}
             alt={prod.name}
-            className="object-cover xl:size-100 2xl:size-75"
+            className="object-cover xl:size-100 2xl:h-65"
           />
 
           <div
@@ -21,7 +21,7 @@ export const ProductCard = ({ prod }) => {
             {prod.availability}
           </div>
 
-          <ul className="text-sm p-5 space-y-3 tracking-wider  bg-orange-200 min-h-full text-gray-800 sm:text-lg md:text-2xl lg:text-3xl 2xl:text-2xl">
+          <ul className="text-sm w-full p-5 space-y-3 tracking-wider bg-inherit  min-h-full text-gray-800 sm:text-lg md:text-2xl lg:text-3xl 2xl:text-lg">
             <li className="text-md font-bold text-md space-y-6  ">
               {prod.name}
             </li>
