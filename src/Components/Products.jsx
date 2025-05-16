@@ -12,7 +12,7 @@ export const Products = () => {
             Trusted Essentials for Your Beloved Pets 
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-0.5 xl:gap-4 2xl:grid-cols-4 ">
+        <div className="grid grid-cols-2 gap-0.5 2xl:grid-cols-4 ">
           {petSupplies.map((item, index) => (
             <ProductCard key={index} prod={item}/>
           ))}

@@ -1,7 +1,7 @@
 import {Overlay} from './Overlay'
 
 export const Mission = () => {
-  const paragraphStyle = "text-gray-800/60 leading-12 text-md sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-lg 2xl:leading-8 2xl:w-200";
+  const paragraphStyle = "text-gray-800/60 leading-8 text-md sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-lg  2xl:w-200";
   return (
     <>
       <div className="relative bg-[var(--warm-sand)]   justify-items-center 2xl:h-screen">
