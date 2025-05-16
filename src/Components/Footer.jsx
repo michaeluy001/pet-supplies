@@ -1,8 +1,8 @@
 
-import { useFooterCols } from "./useFooterCols";
+import { useSiteContent } from "./useSiteContent";
 
 export const Footer = () => {
-  const columns = useFooterCols([]);
+  const columns = useSiteContent([]);
 
   return (
     <>

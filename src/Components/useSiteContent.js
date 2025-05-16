@@ -1,5 +1,5 @@
-export const useFooterCols = () => {
-
+export const useSiteContent = () => {
+    
     const cols = [
         {
             title: "Company",
