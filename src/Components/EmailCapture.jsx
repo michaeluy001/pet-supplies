@@ -5,28 +5,28 @@ import { FaArrowRight } from "react-icons/fa";
 export const EmailCapture = () => {
   return (
     <>
-      <div className="relative bg-amber-100 overflow-hidden">
-        <form className="h-screen content-center px-15 sm:text-lg">
-          <p className="text-lg text-gray-800/60 tracking-widest sm:text-3xl md:text-4xl lg:text-5xl">
+      <div className="relative  overflow-hidden">
+        <form className="relative h-screen content-center px-15 sm:text-lg z-3 2xl:w-1/2">
+          <p className="text-lg text-gray-800/60 tracking-widest sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-2xl">
             Subscribe to our Newsletter to receive exciting updates and promos!
           </p>
-          <div className="flex items-center  md:text-4xl">
+          <div className="flex items-center  md:text-4xl 2xl:text-2xl">
             <input
               id="email"
               type="email"
               placeholder="name@email.com"
-              className="border p-3 rounded-2xl m-5 h-8 w-5/6 sm:h-15 md:h-20"
+              className="border p-3 rounded-2xl m-5 h-8 w-5/6 sm:h-15 md:h-20 2xl:h-10"
             />
-            <div className="flex text-[var(--mint-green)] text-lg items-center bg-amber-200 size-8 justify-center rounded-full sm:size-12 md:size-15 lg:size-20">
-              <FaArrowRight className="active:scale-50 transition-transform sm:text-3xl md:text-4xl" />
+            <div className="flex text-[var(--mint-green)] text-lg items-center bg-amber-200 size-8 justify-center rounded-full sm:size-12 md:size-15 lg:size-20 2xl:size-10">
+              <FaArrowRight className="active:scale-50 transition-transform sm:text-3xl md:text-4xl 2xl:text-lg" />
             </div>
           </div>
         </form>
 
         <Overlay />
 
-        <div className="absolute bottom-10 right-10 origin-bottom content-center rotate-15 ">
-          <img src={corgi} alt="Corgi" className="size-35 md:size-60" />
+        <div className="absolute bottom-10 right-10 origin-bottom content-center rotate-15 z-2">
+          <img src={corgi} alt="Corgi" className="size-35 md:size-60 2xl:size-40" />
         </div>
       </div>
     </>

@@ -26,38 +26,46 @@ export const Slider = () => {
   return (
     <>
       <div className=" w-full content-center overflow-hidden ">
-        <div className="space-y-5">
-          <p className="text-center text-lg py-10 px-5 font-bold text-gray-800/60 sm:text-3xl md:text-4xl lg:text-5xl">
-            Swipe through our featured products — 
-            handpicked for comfort, fun, and everyday care. 
-            Because your pet deserves the best!</p>
-          <div className="relative  size-full flex overflow-hidden">
+        <div className="space-y-5 2xl:w-2/3 2xl:m-auto">
+          <p className="text-center text-lg py-10 px-5 font-bold text-gray-800/60 sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-3xl 2xl:h-20">
+            Handpicked for comfort, fun, and everyday care. Because your pet
+            deserves the best!
+          </p>
+          <div className="relative  size-full flex overflow-hidden 2xl:h-150 ">
             {imageUrls.map((url, index) => (
               <img
                 key={index}
                 src={url}
-                className={` block size-full object-cover shrink-0 grow-0 transition-transform duration-300`}
+                className={` block size-full object-cover shrink-0 grow-0 transition-transform duration-300 `}
                 style={{ translate: `${-100 * imageIndex}%` }}
               />
             ))}
 
-            <div className="absolute top-0 size-full flex justify-between text-gray-800/80">
+            <div className="absolute top-0 size-full flex justify-between text-gray-800/80 ">
               <button
                 onClick={prevSlide}
                 className="h-full px-5 active:bg-gray-800/30 "
               >
-                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-5xl"><FaArrowLeft /></div>
+                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-5xl 2xl:text-lg">
+                  <FaArrowLeft />
+                </div>
               </button>
               <button
                 onClick={nextSlide}
                 className="h-full px-5 active:bg-gray-800/30"
               >
-                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-5xl"><FaArrowRight /></div>
+                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-5xl 2xl:text-lg">
+                  <FaArrowRight />
+                </div>
               </button>
             </div>
-            <div className="absolute h-10 w-1/2 bottom-2 left-1/2 -translate-1/2 text-gray-800 flex justify-evenly">
+            <div className="absolute h-10 w-1/2 bottom-2 left-1/2 -translate-1/2 text-gray-800 flex justify-evenly xl:justify-center gap-10">
               {imageUrls.map((_, index) => (
-                <button onClick={() => setImageIndex(index)} key={index} className="text-sm sm:text-2xl md:text-3xl lg:text-4xl">
+                <button
+                  onClick={() => setImageIndex(index)}
+                  key={index}
+                  className="text-sm sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-lg"
+                >
                   {index === imageIndex ? <FaRegDotCircle /> : <FaRegCircle />}
                 </button>
               ))}

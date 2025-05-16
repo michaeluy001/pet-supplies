@@ -12,7 +12,7 @@ function App() {
   return (
     <><div className='overflow-x-hidden'>
         <Header />
-        <div className='flex flex-col container'>
+        <div className='flex flex-col'>
           <HeroBanner />
           <Features />
           <Products />

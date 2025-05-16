@@ -8,9 +8,9 @@ export const Features = () => {
     <>
       <div className="w-screen my-20">
         <FeatureTitle />
-        <div className=" flex flex-col  overflow-hidden ">
+        <div className=" flex flex-col  overflow-hidden 2xl:flex-row 2xl:gap-20 justify-center">
           {cardArray.map((item, index) => (
-            <Card key={index} card={item} />
+            <Card key={index} id={index} card={item} />
           ))}
         </div>
       </div>
