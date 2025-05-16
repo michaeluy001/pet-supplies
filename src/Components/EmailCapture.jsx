@@ -5,8 +5,8 @@ import { FaArrowRight } from "react-icons/fa";
 export const EmailCapture = () => {
   return (
     <>
-      <div className="relative  overflow-hidden">
-        <form className="relative h-screen content-center px-15 sm:text-lg z-3 2xl:w-1/2">
+      <div className="relative  overflow-hidden justify-items-center">
+        <form className="relative h-screen content-center  px-15 sm:text-lg z-3 2xl:w-1/3">
           <p className="text-lg text-gray-800/60 tracking-widest sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-2xl">
             Subscribe to our Newsletter to receive exciting updates and promos!
           </p>
