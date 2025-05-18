@@ -27,11 +27,11 @@ export const Slider = () => {
     <>
       <div className=" w-full content-center overflow-hidden ">
         <div className="space-y-5 2xl:w-2/3 2xl:m-auto">
-          <p className="text-center m-10 text-lg py-10 px-5 font-bold text-gray-800/60 sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-3xl 2xl:h-20">
+          <p className="text-center m-10 text-lg py-10 px-5 font-bold text-gray-800/60 sm:text-3xl md:text-4xl lg:text-3xl 2xl:text-3xl 2xl:h-20">
             Handpicked for comfort, fun, and everyday care. Because your pet
             deserves the best!
           </p>
-          <div className="relative  size-full flex overflow-hidden 2xl:h-150 ">
+          <div className="relative  size-full flex overflow-hidden lg:h-150 ">
             {imageUrls.map((url, index) => (
               <img
                 key={index}
@@ -46,7 +46,7 @@ export const Slider = () => {
                 onClick={prevSlide}
                 className="h-full px-5 active:bg-gray-800/30 "
               >
-                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-5xl 2xl:text-lg">
+                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-lg">
                   <FaArrowLeft />
                 </div>
               </button>
@@ -54,7 +54,7 @@ export const Slider = () => {
                 onClick={nextSlide}
                 className="h-full px-5 active:bg-gray-800/30"
               >
-                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-5xl 2xl:text-lg">
+                <div className="bg-white/60 p-2 rounded-full active:bg-white transition-colors text-xs sm:text-2xl md:text-3xl lg:text-lg">
                   <FaArrowRight />
                 </div>
               </button>
@@ -64,7 +64,7 @@ export const Slider = () => {
                 <button
                   onClick={() => setImageIndex(index)}
                   key={index}
-                  className="text-sm sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-lg"
+                  className="text-sm sm:text-2xl md:text-3xl lg:text-lg"
                 >
                   {index === imageIndex ? <FaRegDotCircle /> : <FaRegCircle />}
                 </button>

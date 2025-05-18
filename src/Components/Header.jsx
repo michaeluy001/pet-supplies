@@ -2,7 +2,6 @@ import logo from "/src/assets/Lovepetslogo.png";
 import { CiSearch } from "react-icons/ci";
 import { BsMinecart } from "react-icons/bs";
 import {useState} from 'react';
-
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Drawer } from "./Drawer";
 export const Header = () => {

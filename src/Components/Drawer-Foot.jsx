@@ -7,7 +7,7 @@ import { BsMinecart } from "react-icons/bs";
 export const DrawerFoot = () => {
   return (
     <>
-      <div className="border-t-1 h-15 mt-auto grid grid-cols-3 items-center px-5 text-lg">
+      <div className="border-t-1 h-15 mt-auto grid grid-cols-3 items-center px-5 text-lg md">
         <p className="justify-items-center">Log In</p>
         <div className="flex mx-10 space-x-3 text-2xl justify-center">
           <p> <FaFacebookF /> </p>

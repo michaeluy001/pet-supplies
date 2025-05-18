@@ -11,7 +11,7 @@ export const Drawer = (props) => {
     <>
       <div className={`${absPosition}size-full bg-gray-400/80 z-20` } onClick={props.onClose} />
       <motion.div
-        className={`${absPosition} z-21 w-full md:w-1/4 h-screen bg-amber-100 flex flex-col`} initial={{ left: -500 }} animate={{ left: 0}} transition={{duration: 0.4, type:"spring" }}
+        className={`${absPosition} z-21 w-full md:w-1/2 xl:w-1/4 h-screen bg-amber-100 flex flex-col`} initial={{ left: -500 }} animate={{ left: 0}} transition={{duration: 0.4, type:"spring" }}
       >
         <button className="p-8 text-4xl">
           <IoMdClose onClick={props.onClose} />

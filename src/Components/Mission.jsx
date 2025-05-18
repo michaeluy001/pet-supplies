@@ -1,13 +1,13 @@
 import {Overlay} from './Overlay'
 
 export const Mission = () => {
-  const paragraphStyle = "text-gray-800/60 leading-8 text-md sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-2xl  2xl:w-200";
+  const paragraphStyle = "text-gray-800/60 leading-8 text-md sm:text-2xl md:text-3xl lg:text-2xl  2xl:w-200";
   return (
     <>
       <div className="relative bg-[var(--warm-sand)]   justify-items-center 2xl:h-screen">
         <div className=" relative z-1 w-screen px-10 py-7 tracking-wider h-full text-justify md:w-6/7 ">
           <div className="my-10 ">
-            <span className="text-[var(--soft-purple)] text-2xl font-bold sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-3xl">
+            <span className="text-[var(--soft-purple)] text-2xl font-bold sm:text-4xl md:text-4xl">
               Our Story
             </span>
           </div>
@@ -22,7 +22,7 @@ export const Mission = () => {
             owners everywhere.
           </p>
           <div className="my-10">
-            <span className="text-[var(--mint-green)] text-2xl font-bold sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-3xl">
+            <span className="text-[var(--mint-green)] text-2xl font-bold sm:text-4xl md:text-4xl">
               Our Mission
             </span>
           </div> 
